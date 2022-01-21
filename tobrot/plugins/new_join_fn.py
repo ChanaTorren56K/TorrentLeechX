@@ -36,6 +36,6 @@ async def help_message_f(client, message):
     else:
         utxt = "Streamable"
     await message.reply_text(
-        """<b>Hello There (WELCOME) This is TEM-TorrentX an instance of @TEM_LEECH </b>\n\n<i>Want The list of CMDS available for the bot.👇\n\nType #botcmds To Get Them</i>""",
+        """<b>Hello There, This is TEM-TorrentX an instance of @TEM_LEECH </b>\n\n<i>Want The list of CMDS available for the bot.👇\n\nType #botcmds To Get Them</i>""",
         disable_web_page_preview=True,
     )
